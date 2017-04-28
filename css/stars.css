@@ -1,0 +1,26 @@
+body {
+  background-color: black;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+.Title {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.Stars_container {
+  width: 100%;
+}
+
+.Stars__field {
+  background-color: black;
+  min-width: 1000px;
+  width: 1000px;
+  min-height: 1000px;
+  height: 1000px;
+  position: relative;
+  margin: 0 auto;
+  border: 1px solid white;
+}

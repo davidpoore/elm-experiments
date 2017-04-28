@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/stars.css">
+    <script type="text/javascript" src="src/stars.js"></script>
+  </head>
+
+  <body>
+    <div class="Title">Window to the Universe</div>
+    <div class="Stars_container">
+      <div id="stars" class="Stars__field" />
+    </div>
+    <script>
+        var node = document.getElementById('stars');
+        var app = Elm.Main.embed(node);
+    </script>
+  </body>
+</html>
